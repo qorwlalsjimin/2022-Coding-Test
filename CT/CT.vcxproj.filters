@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="getMax.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="getMin.c">
+    <ClCompile Include="Search.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
