@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Search.c">
+    <ClCompile Include="RandomSearch.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
