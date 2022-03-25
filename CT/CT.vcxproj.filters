@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RandomSearch.c">
+    <ClCompile Include="Duplication.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
