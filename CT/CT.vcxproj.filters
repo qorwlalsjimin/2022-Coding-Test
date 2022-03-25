@@ -18,5 +18,8 @@
     <ClCompile Include="getMax.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="getMin.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
