@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,8 +13,8 @@ int main() {
 			break;
 
 	if (n > 0 && n < 11)
-		printf("%d´Â %d¹øÂ° ¿ä¼Ò¿¡ ÀÖ½À´Ï´Ù.", n, ++i);
+		printf("%dëŠ” %dë²ˆì§¸ ìš”ì†Œì— ìžˆìŠµë‹ˆë‹¤.", n, ++i);
 	else
-		printf("%d °á°ú¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù.",n);
+		printf("%d ê²°ê³¼ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.",n);
 	return 0;
 }
