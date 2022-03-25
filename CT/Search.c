@@ -1,12 +1,15 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main() {
 	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
-	printf("1~10±îÁö ÀÔ·ÂÇÏ½Ã¿À. >> ");
 	int n, nPosition;
-	scanf_s("%d", &n);
+	do {
+		printf("1~10 ì¤‘ í•˜ë‚˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤. >> ");
+		scanf_s("%d", &n);
+	} while (n < 1 || n>10);
+
 	for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
 		if (arr[i] == n) nPosition = i;
 
-	printf("%d´Â %d¹øÂ° ¿ä¼Ò¿¡ ÀÖ½À´Ï´Ù.", n, nPosition);
+	printf("%dëŠ” %dë²ˆì§¸ ìš”ì†Œì— ìžˆìŠµë‹ˆë‹¤.", n, nPosition);
 	return 0;
 }
