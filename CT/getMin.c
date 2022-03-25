@@ -7,7 +7,7 @@ int main() {
 	for (int i = 0; i < sizeof(arr) / sizeof(int); i++) {
 		if (min > arr[i]) {
 			min = arr[i];
-			index = i; 
+			index = i;
 		}
 	}
 
